@@ -5906,6 +5906,7 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			width: 60%;
+			height: auto;
 			min-width: 25rem;
 			border-radius: 0;
 		}
@@ -5923,7 +5924,7 @@ input, select, textarea {
 				position: absolute;
 				top: 0;
 				left: 0;
-				max-width: 100%;
+				width: 100%;
 				height: auto;
 				border-radius: 0;
 			}
