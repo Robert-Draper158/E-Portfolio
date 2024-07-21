@@ -37,12 +37,9 @@
 						<div class="content">
 							<h2>Raw Data</h2>
 							<p>The Student data is unnormalised. As we can see, each student record has multiple courses in the same row. In order to convert this to the first normal form we need to ensure that each cell holds a single value, splitting the courses into distinct rows for each student.</p>
-							<ul class="actions stacked">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
 						</div>
 						<div class="image">
-							<img src="images/spotlight01.jpg" alt="" />
+							<img src="images/Unnormalised.png" alt="" />
 						</div>
 					</section>
 
