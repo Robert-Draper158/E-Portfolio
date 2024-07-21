@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Story by HTML5 UP</title>
+		<title>Normalisation and Data Build</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,9 +20,9 @@
 				<!-- One -->
 					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
-							<h1>Deciphering Big Data</h1>
-							<h2>Student 12695125</h2>
-							<p class="major">An E-Portfolio for projects completed during the Deciphering Big Data Course.</p>
+							<h1>Normalisation and Data Build</h1>
+							<h2></h2>
+							<p class="major">Using sample student data to demonstrate normalisation and database design skills.</p>
 							<ul class="actions stacked">
 								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
 							</ul>
@@ -35,14 +35,11 @@
 				<!-- Two -->
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
-							<h2>Collaborative Discussion 1</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum dolor sit amet.</p>
-							<ul class="actions stacked">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
+							<h2>Raw Data</h2>
+							<p>The Student data is unnormalised. As we can see, each student record has multiple courses in the same row. In order to convert this to the first normal form we need to ensure that each cell holds a single value, splitting the courses into distinct rows for each student.</p>
 						</div>
 						<div class="image">
-							<img src="images/spotlight01.jpg" alt="" />
+							<img src="images/Unnormalised.png" alt="" />
 						</div>
 					</section>
 
