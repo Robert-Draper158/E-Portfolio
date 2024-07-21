@@ -5909,6 +5909,7 @@ input, select, textarea {
 			height: auto;
 			min-width: 25rem;
 			border-radius: 0;
+ 			background-color: #2471A3;
 		}
 
 			.spotlight.style6 .image img {
@@ -5922,8 +5923,10 @@ input, select, textarea {
 				object-position: center;
 				display: block;
 				position: absolute;
-				top: 0;
-				left: 0;
+				margin-top: auto;
+				margin-bottom: auto;
+ 				margin-left: auto;
+  				margin-right: auto;
 				width: 100%;
 				height: auto;
 				border-radius: 0;
